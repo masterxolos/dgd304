@@ -41,6 +41,7 @@ public class GameConfig : ScriptableObject
     public GameObject enemyPrefab;
     public GameObject playerPrefab;
     public GameObject firePrefab;
+    public GameObject fireSoundPrefab;
     public GameObject treasurePrefab;
 }
 

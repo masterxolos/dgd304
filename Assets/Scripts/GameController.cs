@@ -34,6 +34,7 @@ public class GameController : MonoBehaviour
             .Add(new PlayerStateSystem(Contexts.sharedInstance))
             .Add(new DestroySystem(Contexts.sharedInstance))
             .Add(new GameStateSystem(Contexts.sharedInstance))
+            .Add(new SoundSystem(Contexts.sharedInstance))
             ;
 
         _systems.Initialize();

@@ -26,4 +26,5 @@ MonoBehaviour:
   enemyPrefab: {fileID: 5331424363265349892, guid: 99069598bd47941e08222498d01a969c, type: 3}
   playerPrefab: {fileID: 8003551856947449104, guid: b8cd24dcb37df44838cdf7a9032b6a33, type: 3}
   firePrefab: {fileID: 433864080505402506, guid: 80d39b5d99ebd46e5b51649aa91f8332, type: 3}
+  fireSoundPrefab: {fileID: 1504948415778608150, guid: afa212f779583b246b15989fc9899059, type: 3}
   treasurePrefab: {fileID: 3624583912123866571, guid: 402599d621de0439c87df32d3ec7d2e6, type: 3}
