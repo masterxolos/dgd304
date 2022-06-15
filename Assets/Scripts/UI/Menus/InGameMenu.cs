@@ -8,9 +8,11 @@ public class InGameMenu : Menu, IAnyAirListener
 {
     public Button pauseButton;
     public TextMeshProUGUI airText;
-
+    public Slider airSlider;
+    
     public void OnAnyAir(GameEntity entity, float value)
     {
+        airSlider.value = value;
         airText.text = value.ToString("0.00");
     }
 
